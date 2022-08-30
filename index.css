@@ -1,7 +1,6 @@
 body {
     margin: 0;
-    background: 
-#1C1C1C;
+    background: #1C1C1C;
     color:white;
 }
 .section-container{
@@ -18,14 +17,29 @@ h1 span {
     color: #4ADF86
 }
 
+#password-slider-text {
+    font-size: 0.9em;
+  }
+  
+#slider {
+    display: block;
+    margin: 1em 0;
+}
+
 .generate-btn{
     background-color: #4ADF86;
     border:none;
     margin-top:51px;
     padding: 9px 15px;
     border-radius: 5px;
-    color: white
+    color: white;
 }
+.generate-btn:hover{
+    transform: scale(1.02);
+    cursor:pointer;
+    transition:0.1s
+}
+
 hr{
     border: 1px solid #2F3E53;
     margin-bottom: 35px;
@@ -33,18 +47,20 @@ hr{
 }
 
 .suggestion-container{
-    display: inline-block;
-    margin:2em auto
+    display: flex;
+    flex-flow: wrap;
 }
 
-#suggestion-btn-1,#suggestion-btn-2{
-
-    justify-content:center; 
-    align-items:center; 
+.generated-password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 40px;
     background: #273549;
     border:none;
     border-radius: 5px;
     color:#4ADF86;
+    margin: 0 1em 1em 0;
 }
