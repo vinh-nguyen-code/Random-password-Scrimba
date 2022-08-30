@@ -6,7 +6,8 @@ body {
 .section-container{
     background: #1F2937;
     margin: 64px;
-    padding: 115px 52px
+    padding: 115px 52px;
+    max-width: 1000px
 }
 
 h1{
