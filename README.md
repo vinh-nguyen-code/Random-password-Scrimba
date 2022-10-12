@@ -25,7 +25,7 @@ This is a solution to the [Random Password Generator Solo Project](https://scrim
 
 ### Links
 
-- Live Site: [DEMO](vinh-nguyen-code.github.io/Random-password-Scrimba/)
+- Live Site: [DEMO](https://vinh-nguyen-code.github.io/Random-password-Scrimba/)
 
 ## Process
 
