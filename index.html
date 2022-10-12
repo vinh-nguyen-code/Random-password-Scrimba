@@ -6,22 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password Generator - Scrimba</title>
     <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class ="section-container">
-        <h1>Generate a <br> <span class ="green">random password </span> </h1>
-        <p class ="subtitle">Never use an insecure password again. </p>
+    <main class ="section-container">
+        <h1>Generate a <span>random password </span> </h1>
+        <p>Never use an insecure password again. </p>
         <span id="password-slider-text">Length: <label for="slider" id="sliderNumber">8</label></span>
         <input type="range" min="8" max="15" value="8" class="slider" id="slider" name="slider"></input>
         <button class="generate-btn" onclick="getPassword()">Generate passwords</button>
         <hr>
         <div class ="suggestion-container">
-            <div class = "generated-password" id="password-1"></div>
-            <div class = "generated-password" id="password-2"></div>
-            <div class = "generated-password" id="password-3"></div>
-            <div class = "generated-password" id="password-4"></div>
+            <button class = "generated-password" id="password-1" onclick="copy(document.getElementById('password-1').innerHTML)"></button>
+            <button class = "generated-password" id="password-2" onclick="copy(document.getElementById('password-2').innerHTML)"></button>
+            <button class = "generated-password" id="password-3" onclick="copy(document.getElementById('password-3').innerHTML)"></button>
+            <button class = "generated-password" id="password-4" onclick="copy(document.getElementById('password-4').innerHTML)"></button>
         </div>
-    </div>
+    </main>
     <script src="index.js"></script>
+    <footer class = "copyright" >
+        <p>
+            @ 2022
+            <a href="https://github.com/vinh-nguyen-code" target="_blank">Vinh NGUYEN</a>
+        </p>
+    </footer>
 </body>
 </html>

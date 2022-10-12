@@ -6,6 +6,8 @@ let password2 = document.getElementById("password-2")
 let password3 = document.getElementById("password-3")
 let password4 = document.getElementById("password-4")
 
+/* Function generate random passwords acdording to the length*/
+
 function generatePassword(){
     let password = ""
     for (i=0; i< passwordLength;i++){       
@@ -21,8 +23,22 @@ function getPassword(){
     password3.textContent = generatePassword()
     password4.textContent = generatePassword()
 }
+ 
+/* Add the ability to set password length (from 8 to 15 characters)*/
 
 slider.addEventListener("input", function () {
     sliderNumber.textContent = `${slider.value}`;
     passwordLength = slider.value;
-  });
+});   
+
+
+
+/* Copy password)*/
+function copy(text) {
+    window.prompt("Ctrl+C or Cmd+C then Enter to copy to clipboard:", text);
+  }
+
+
+
+
+
