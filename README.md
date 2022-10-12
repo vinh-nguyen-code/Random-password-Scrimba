@@ -48,4 +48,5 @@ I have continued with these stretch goals:
 
 ## Author
 
+- Github - [Vinh NGUYEN](https://github.com/vinh-nguyen-code)
 - Linkedin - [Vinh NGUYEN](https://www.linkedin.com/in/tuan-vinh-nguyen/)
