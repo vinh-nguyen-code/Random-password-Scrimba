@@ -5,7 +5,7 @@ This is a solution to the [Random Password Generator Solo Project](https://scrim
 ## Table of contents
 
 - [Overview](#overview)
-  - [Requirements](#requirements)
+  - [Goals](#goals)
   - [Links](#links)
 
 - [Process](#process)
