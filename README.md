@@ -23,6 +23,11 @@ This is a solution to the [Random Password Generator Solo Project](https://scrim
 - Generate random passwords when the user clicks the button
 - Each password should be 15 characters long
 
+
+I have continued with these stretch goals:
+- Add the possibility to set password length between 8 and 15 characters
+- Add "copy" functions when clicking on the generated passwords
+
 ### Links
 
 - Live Site: [DEMO](https://vinh-nguyen-code.github.io/Random-password-Scrimba/)
@@ -40,10 +45,6 @@ This is a solution to the [Random Password Generator Solo Project](https://scrim
 
 - Generate random index
 - DOM, addEventListener
-
-I have continued with these stretch goals:
-- Add the possibility to set password length between 8 and 15 characters
-- Add "copy" functions when clicking on the generated passwords
 
 ## Author
 
